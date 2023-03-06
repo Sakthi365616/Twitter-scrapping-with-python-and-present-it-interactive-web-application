@@ -155,7 +155,7 @@ st.write('''&emsp;&emsp;Uploading Twitter data to MongoDB is a great way to stor
 file="C:/Users/shakt/OneDrive/Desktop/scrapping/twitter_scrapping_Netflix.csv"
 num_tweets = st.number_input(label='Enter the number of tweets to upload', min_value=1, step=1,max_value=10000)
 df=pd.read_csv(file,nrows=num_tweets)
-link=pymongo.MongoClient("mongodb+srv://sakthivel:sakthiVEL@guvi-data-sci.tmwrsy2.mongodb.net/?retryWrites=true&w=majority")
+link=pymongo.MongoClient("mongodb+srv://sakthivel:********@guvi-data-sci.tmwrsy2.mongodb.net/?retryWrites=true&w=majority")
 DB_name=st.text_input(label='Enter the existing DB name to connect or new DB name to create')
 DB_collection=st.text_input(label='Enter the collection name being part of the above given existing DB or new collection name to create')
 
