@@ -1,0 +1,2 @@
+# Twitter-scrapping-with-python-and-present-it-interactive-web-application
+This project is about scraping Twitter data using the snscrape library, filtering tweets based on hashtags and date range, and downloading the filtered data as CSV or JSON files. We will use the Streamlit library to create a user-friendly interface for this project. We will also integrate the MongoDB database to upload and store the scraped data.
